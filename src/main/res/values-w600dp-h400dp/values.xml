@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="column_number">2</integer>
+    <dimen name="snips_logo_size">60dp</dimen>
+    <dimen name="standard_margin">12dp</dimen>
+    <dimen name="big_margin">24dp</dimen>
+    <dimen name="room_header_size">60dp</dimen>
+    <dimen name="room_header_text_size">28sp</dimen>
+    <dimen name="room_item_image_size">30dp</dimen>
+    <dimen name="room_item_text_size">14sp</dimen>
+</resources>

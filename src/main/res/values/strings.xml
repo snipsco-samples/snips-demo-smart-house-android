@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Smart House Demo</string>
+
+    <string name="room_name_kitchen">Kitchen</string>
+    <string name="room_name_bedroom">Bedroom</string>
+    <string name="room_name_kids_bedroom">Dani\'s Bedroom</string>
+    <string name="room_name_living_room">Living Room</string>
+
+    <string name="room_item_lights">Lights</string>
+    <string name="room_item_heater">Thermostat</string>
+    <string name="room_item_window">Window</string>
+
+    <string name="room_item_value_closed">Closed</string>
+    <string name="room_item_value_off">Off</string>
+    <string name="mic_listening">Listening…</string>
+</resources>

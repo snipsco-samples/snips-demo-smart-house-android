@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/animation_container">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/snips_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="@dimen/big_margin"
+        android:src="@drawable/snips"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/standard_margin"
+
+
+        app:layout_constraintBottom_toTopOf="@id/fab"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="3"
+        tools:layoutManager="android.support.v7.widget.GridLayoutManager"
+        tools:listitem="@layout/room_card" />
+
+    <ProgressBar
+        android:id="@+id/loading_bar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/modal"
+        android:layout_width="@dimen/small_room_item_size"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/target_room_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:textColor="@color/darkgray"
+            android:textSize="@dimen/room_header_text_size"
+            android:textStyle="bold"
+            tools:text="Kitchen, Bedroom" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:background="#dddddd" />
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/target_room_item_1_img"
+            android:layout_width="@dimen/room_item_image_size"
+            android:layout_height="@dimen/room_item_image_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/standard_margin"
+            android:layout_marginTop="4dp"
+            tools:src="@drawable/light_off" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/target_room_item_1_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#262626"
+            android:textSize="@dimen/room_item_text_size_big"
+            tools:text="Lights" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/target_room_item_1_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:textColor="#696e7d"
+            android:textSize="@dimen/room_item_text_size_big"
+            tools:text="50%" />
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="16dp"
+        android:src="@drawable/mic"
+        android:tint="@android:color/white"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mic_listening"
+        android:id="@+id/listening_text"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/room_header_text_size"
+        android:textStyle="bold"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/modal_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".7"
+        android:visibility="gone"
+        android:background="#ff000000"/>
+
+</android.support.constraint.ConstraintLayout>

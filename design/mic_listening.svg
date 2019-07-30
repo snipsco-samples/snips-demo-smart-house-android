@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg4302"
+   sodipodi:docname="mic_listening.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <metadata
+     id="metadata4306">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2031"
+     id="namedview4304"
+     showgrid="false"
+     inkscape:zoom="41.043478"
+     inkscape:cx="17.460196"
+     inkscape:cy="7.3054316"
+     inkscape:window-x="0"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4302" />
+  <defs
+     id="defs4286">
+    <circle
+       id="b"
+       cx="35"
+       cy="35"
+       r="35" />
+    <filter
+       id="a"
+       width="1.5569999"
+       height="1.5569999"
+       x="-0.27899998"
+       y="-0.19299999"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="6"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset4279" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="5.5"
+         id="feGaussianBlur4281" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.690196078 0 0 0 0 0.705882353 0 0 0 0 0.819607843 0 0 0 0.5 0"
+         id="feColorMatrix4283" />
+    </filter>
+  </defs>
+  <path
+     style="fill:#000000;fill-rule:evenodd;stroke-width:1.02727008"
+     d="m 12.086868,0.03624864 c 2.740755,0 5.165064,1.16661626 6.68234,2.97152966 0.352449,0.4309756 0.302451,1.0618579 -0.110402,1.4353592 L 16.733792,6.2145338 C 16.333156,6.5812695 15.712444,6.600469 15.312834,6.2337297 14.33282,5.3348682 13.133665,4.9087828 12.086877,4.9087828 c -1.103288,0 -2.1170344,0.6474454 -2.1170344,1.9346146 0,1.0108338 0.8286244,1.7450057 2.2082454,2.2514497 3.173239,1.1484869 8.372129,2.1591919 8.372129,7.1239899 0,4.18407 -3.219838,7.724057 -8.232914,7.724057 -4.286808,-10e-4 -7.3042724,-2.682612 -8.7321779,-5.28058 C 3.296141,18.14688 3.4828254,17.498141 4.0027715,17.217353 l 2.6642952,-1.425758 c 0.5136362,-0.274281 1.1596928,-0.08844 1.4257576,0.427248 0.8906421,1.722733 2.3106637,2.851515 4.2244687,2.851515 1.748414,0 2.851515,-0.784486 2.851515,-2.486673 0,-1.931269 -2.988762,-2.343279 -5.7942401,-3.537994 -2.5291393,-1.058088 -4.690121,-2.665121 -4.690121,-6.2502928 0,-3.5851727 2.8957856,-6.75914956 7.4024211,-6.75914956 z"
+     id="path4374"
+     inkscape:connector-curvature="0" />
+  <g
+     style="fill:#000000;fill-rule:nonzero"
+     id="g4298"
+     transform="matrix(0.76272977,0,0,0.76272977,-23.421552,-18.485928)" />
+</svg>
